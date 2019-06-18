@@ -1,0 +1,25 @@
+{
+  "name": "calc-points",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js",
+    "test:watch": "onchange *.js -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bodeck/calc-points.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bodeck/calc-points/issues"
+  },
+  "homepage": "https://github.com/Bodeck/calc-points#readme",
+  "dependencies": {
+    "mocha": "^6.1.4",
+    "onchange": "^6.0.0"
+  }
+}
